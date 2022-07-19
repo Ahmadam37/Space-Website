@@ -1,0 +1,84 @@
+<div class="row listHeading">
+  <div class="col-lg-6 col-md-12 col-sm-12 contentColOne">
+    <div class="cardOne">
+     <img [src]="selectedItem.src" alt="" srcset="">
+    </div>
+
+  </div>
+  <div class="col-lg-6 col-md-12 col-sm-12 contentCol">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="navDesItem">
+              <li class="nav-item">
+                <a
+                  class="nav-link navLink"
+                  aria-current="page"
+                  (click)="selected(0)"
+                  style="color: white; font-size: 20px; display: inline-block"
+                  >MOON</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link navLink"
+                  (click)="selected(1)"
+                  style="color: white; font-size: 20px; display: inline-block"
+                  >MARS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link navLink"
+                  (click)="selected(2)"
+                  style="color: white; font-size: 20px; display: inline-block"
+                  >EUROPA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link navLink"
+                  (click)="selected(3)"
+                  style="color: white; font-size: 20px; display: inline-block"
+                  >TITAN</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="navLink">{{selectedItem.name}}</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8">
+            <p class="desLink">
+             {{selectedItem.description}}
+            </p>
+          </div>
+        </div>
+        <hr style="color: #979797; width: 75%; height: 1.5px; margin-left: 50px;" />
+        <div class="row headingAvg">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <p class="textAvg">AVG. DISTANCE</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <p class="textAvg">EST. TRAVEL TIME</p>
+          </div>
+        </div>
+        <div class="row headingAvg">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <h1 class="DesDetails">{{selectedItem.AvgDistance}} + {{selectedItem.Distance}}</h1>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <h1 class="DesDetails">{{selectedItem.TravileTime}}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

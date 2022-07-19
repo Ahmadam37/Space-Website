@@ -1,0 +1,60 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: .7rem;
+
+}
+.navbarImg{
+  padding-left: 20px !important;
+}
+.nav-item:hover:after , .nav-item.active:after{
+	bottom: -30px;
+	opacity: 1;
+}
+
+.nav-item{
+	position: relative;
+    transition: all 200ms linear;
+}
+.nav-item:after{
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	content: '';
+	background-color: white;
+	opacity: 0;
+    transition: all 200ms linear;
+}
+.navbar-collapse{
+  flex-grow: 0 !important;
+}
+.collapse{
+  width: 65% !important;
+  height: 100px;
+  background-color: rgba( 0, 0, 0, 0.4 );
+}
+hr{
+  background-color: #979797;
+  width: 30%;
+  height: 2px !important;
+}
+@media screen and (max-width: 970px){
+  hr{
+    width: 0;
+    height: 0;
+  }
+}

@@ -1,0 +1,77 @@
+.crewProfile{
+  padding-top: 200px;
+}
+
+.slides {
+    padding: 0;
+    width: 609px;
+    height: 190px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+.slide-container { display: block; }
+
+
+
+.nav-dots {
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 8px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #979797;
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: #fff;
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: #fff;
+}
+
+@media screen and (max-width: 970px){
+  .nav-dots {
+    bottom: -10px;
+    height: 5px;
+    display: block;
+    position:inherit;
+    text-align: center;
+  }
+
+  .crowName{
+    position:inherit;
+    text-align: center;
+  }
+  .crowProfile{
+    position:inherit;
+    text-align: center;
+  }
+  .slides {
+    padding: 0;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+}

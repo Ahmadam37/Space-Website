@@ -1,0 +1,25 @@
+.navDesItem li{
+  display: inline;
+}
+.DesDetails{
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height */
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.headingAvg{
+  padding-left: 50px;
+}
+.textAvg{
+  color: #D0D6F9;
+}
+@media screen and (max-width: 970px){
+.listHeading{
+  margin: 50px auto;
+}
+
+}

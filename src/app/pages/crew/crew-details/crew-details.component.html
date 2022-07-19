@@ -1,0 +1,43 @@
+<div class="row listHeading">
+  <div class="col-lg-6 col-md-12 col-sm-12 contentCol">
+    <div class="row">
+      <div class="col-lg-12 crewProfile">
+        <h4 style="color: #979797;">{{selectedItem.role}}</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 crowName">
+        <h1 style="color: white">{{selectedItem.name}}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 crowProfile">
+        <p>
+          {{selectedItem.profile}}
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="slides">
+          <li class="nav-dots">
+            <label for="img-1" class="nav-dot" id="img-dot-1" (click)="selected(0)"></label>
+            <label for="img-2" class="nav-dot" id="img-dot-2" (click)="selected(1)"></label>
+            <label for="img-3" class="nav-dot" id="img-dot-3" (click)="selected(2)"></label>
+            <label for="img-4" class="nav-dot" id="img-dot-4" (click)="selected(3)"></label>
+          </li>
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-12 col-sm-12 contentColOne">
+    <div class="cardOne">
+      <img
+        style="width: auto; height: 618px"
+        [src]="selectedItem.src"
+        alt=""
+        srcset=""
+      />
+    </div>
+  </div>
+</div>
