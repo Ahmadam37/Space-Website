@@ -51,6 +51,9 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 
 @media screen and (max-width: 970px){
+  .crewProfile{
+    text-align: center;
+  }
   .nav-dots {
     bottom: -10px;
     height: 5px;
