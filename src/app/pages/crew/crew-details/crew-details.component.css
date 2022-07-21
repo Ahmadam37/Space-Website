@@ -11,6 +11,10 @@
     position: relative;
 }
 
+.crewImage{
+  width: auto;
+  height: 618px;
+}
 
 
 .slide-container { display: block; }
@@ -53,6 +57,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 @media screen and (max-width: 970px){
   .crewProfile{
     text-align: center;
+    padding-top: 50px;
   }
   .nav-dots {
     bottom: -10px;
@@ -76,5 +81,10 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     display: block;
     margin: 0 auto;
     position: relative;
+}
+
+.crewImage{
+  width: auto;
+  height: 532px;
 }
 }

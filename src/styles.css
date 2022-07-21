@@ -118,8 +118,6 @@ line-height: 34px;
 letter-spacing: 4.725px;
 text-transform: uppercase;
 color: #FFFFFF;
-
-
 }
 @media screen and (max-width: 970px){
  .home{
@@ -164,6 +162,10 @@ color: #FFFFFF;
       height: 50px;
      margin-top: 60px;
   }
+  .pagetitel{
+    /* Pick your destinatio */
+    top: calc(25% - 150px/2);
+    }
 }
 
 @media screen and (max-width: 375px){
