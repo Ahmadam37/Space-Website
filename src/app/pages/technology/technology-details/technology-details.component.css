@@ -1,0 +1,56 @@
+
+.listHeading{
+  --bs-gutter-x: 0;
+  padding-right: 0;
+}
+
+
+.contentColOne .cardOne{
+  text-align: end;
+}
+.tecTerm{
+  /* THE TERMINOLOGY… */
+font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+color: #D0D6F9;
+
+
+}
+.technologyName h1{
+  font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 3.5rem;
+line-height: 64px;
+}
+
+.tecDes p{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #D0D6F9;
+  width: 440px;
+}
+/* LAUNCH VEHICLE */
+
+/* position: absolute;
+height: 64px;
+left: 0%;
+right: 0%;
+top: calc(50% - 64px/2 - 89.5px);
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 64px;
+
+color: #FFFFFF; */
+
+

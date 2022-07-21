@@ -1,0 +1,8 @@
+#titleTech .container-fluid {
+  padding-top: 169px;
+  padding-left: 400px;
+}
+.listHeading{
+  --bs-gutter-x: 0;
+  padding-right: 0;
+}
